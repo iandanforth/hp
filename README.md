@@ -3,14 +3,12 @@ Homeostatic Primitives
 
 # States, Control, and Optimal Control
 
-Biological creatures require the maintenance of internal and external states to maintain their life processes. If these states veer outside of critical ranges for any extended period of time the organism may die. For example an animal that is unable to breathe in or otherwise process sufficient oxygen will rapidly asphyxiate, whereas excess oxygen can also lead to death via damage to the pulmanory and nervous systems.
+To sustain life, biological organisms must regulate specific internal and external states, with deviations from critical ranges potentially leading to death. For instance, inadequate oxygen intake results in asphyxiation, while too much oxygen can harm the pulmonary and nervous systems.
 
-The behaviors of organisms which serve to regulate essential states can be considered part of a class of control mechanisms. The vast majority of them fall into the category of closed loop controls. Through complex biological mechanisms the organism is able to monitor essential states and initiate behavior to attempt to control those states, adjusting the behavior based on the continually monitored states.
+Organisms exhibit behaviors to manage these vital states, typically through closed-loop control mechanisms. This involves biological systems continuously monitoring and adjusting actions to keep these states within safe limits.
 
-It is unclear what proportion of control behehaviors in organisms fall into the category of 'optimal control.' Optimal control is "control for a dynamical system over a period of time such that an objective function is optimized." While it is clear that some behaviors or behavioral strategies may be superior to others in maintaining essential states, it is unclear if biological mechanisms also try to optimize an objective function when selecting behaviors. For example, it might be the case that minimizing energy expenditure in control behaviors might be a common objective function, however it is not clear that such objectives are universal or even consistently applied during the process of reestablishing essential states within critical ranges.
+The question of whether these behaviors constitute 'optimal control'—defined as maximizing an objective function over time in a dynamic system—remains open. Although some behaviors are evidently more effective in maintaining vital states, it is not confirmed if biological systems strive for such optimization, like minimizing energy use in control actions.
 
-Given that a large and varied set of biological behavior is either directly instigated by or serves the purpose of regulating essential states, we can imagine that researchers may benefit from a concise package of tools for developing and testing control strategies in the context of learning agents.
+Understanding these biological control behaviors is crucial for research, particularly in developing tools for experimenting with control strategies in learning agents. Aligning these fundamental strategies with artificial essential states, thereby creating reusable primitives, can significantly advance both experimental work and theoretical discussions.
 
-Moreover the relation of those fundamental control strategies to a set of one or more artificial essential states, implemented as a reusable set of primitives can benefit both experiment and discussion.
-
-This is the aim of this library.
+This is the intended purpose of the library we propose.
